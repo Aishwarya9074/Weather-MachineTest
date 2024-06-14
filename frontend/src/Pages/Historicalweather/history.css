@@ -1,0 +1,105 @@
+/* history.css */
+
+/* Applying styles to the main container */
+.weatherr-dashboard{
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: url('/public/weather.jpg') no-repeat center;
+  background-size: cover;
+}
+
+/* Styling for the weather dashboard */
+/* .weatherr-dashboard {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+} */
+
+.weatherr-dashboard h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.date-picker {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.date-picker label {
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+
+.date-picker input[type="date"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.weather-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.weather-cardd {
+  background: rgba(175, 177, 175, 0.562);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.weather-cardd h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.weather-cardd p {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.weather-cardd img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.weather-cardd button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0e6598;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.weather-cardd button:hover {
+  background-color: #e4dfdf;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}

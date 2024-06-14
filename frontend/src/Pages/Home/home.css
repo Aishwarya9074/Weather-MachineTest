@@ -1,0 +1,162 @@
+/* fantasticWeather.css */
+
+.main-weather {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 ;
+  margin: 0 auto;
+
+  background: url("/public/bgg5.jpg") center/cover fixed;
+}
+
+.weather-dashboard {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.left-panel {
+    width: 30%;
+}
+
+.right-panel {
+    width: 65%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.weather-card {
+    background: rgba(165, 217, 196, 0.8);
+    border-radius: 20px;
+    padding: 30px; /* Increased padding for the "Today" card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    color: #333;
+    margin-top: 30px;
+}
+
+.today-info {
+    text-align: center;
+}
+
+.current-weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.hourly-forecast img{
+    width: 20px;
+}
+.cli {
+    width: 60px;
+    height: 30px;
+    margin-left: 60px;
+    margin-bottom: 70px;
+}
+
+.temperature {
+    font-size: 3rem;
+    color: #ff6f61;
+    /* margin: 30px; */
+}
+
+.description {
+    font-size: 1.5rem;
+    color: #ff6f61;
+}
+
+.location {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.date {
+    font-size: 1rem;
+    color: #888;
+}
+
+.additional-info {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.hourly-forecast {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hourly-forecast div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hourly-forecast span {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.random-text {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.random-text h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.random-text p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.city-select {
+    margin-top: 20px;
+}
+.btn{
+    background-color: skyblue;
+}
+
+.city-select label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.city-select select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
